@@ -1,6 +1,6 @@
 # Claude Code System Prompts
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.58](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.58) (December 3rd, 2025).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 39 versions since v2.0.14.
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.59](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.59) (December 4th, 2025).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 40 versions since v2.0.14.
 
 Why multiple "system prompts?"
 
@@ -110,6 +110,7 @@ Text for large system reminders.
 - [Tool Description: ReadFile](./system-prompts/tool-description-readfile.md) (**439** tks) - Tool description for reading files.
 - [Tool Description: Skill](./system-prompts/tool-description-skill.md) (**279** tks) - Tool description for executing skills in the main conversation.
 - [Tool Description: SlashCommand](./system-prompts/tool-description-slashcommand.md) (**355** tks) - Tool description for executing slash commands.
+- [Tool Description: TaskUpdate](./system-prompts/tool-description-taskupdate.md) (**140** tks) - Description for the TaskUpdate tool, which updates Claude's task list.
 - [Tool Description: Task](./system-prompts/tool-description-task.md) (**1055** tks) - Tool description for launching specialized sub-agents to handle complex tasks.
 - [Tool Description: TodoWrite](./system-prompts/tool-description-todowrite.md) (**2167** tks) - Tool description for creating and managing task lists.
 - [Tool Description: WebFetch](./system-prompts/tool-description-webfetch.md) (**278** tks) - Tool description for web fetch functionality.
