@@ -26,7 +26,7 @@ Download it and try it out for free!  **https://piebald.ai/**
 
 # Claude Code System Prompts
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.64](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.64) (December 9th, 2025).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 45 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.65](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.65) (December 10th, 2025).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 46 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
 
 Why multiple "system prompts?"
 
@@ -64,7 +64,7 @@ Sub-agents and utilities.
 
 - [Agent Prompt: Agent creation architect](./system-prompts/agent-prompt-agent-creation-architect.md) (**1111** tks) - System prompt for creating custom AI agents with detailed specifications.
 - [Agent Prompt: CLAUDE.md creation](./system-prompts/agent-prompt-claudemd-creation.md) (**384** tks) - System prompt for analyzing codebases and creating CLAUDE.md documentation files.
-- [Agent Prompt: Status line setup](./system-prompts/agent-prompt-status-line-setup.md) (**993** tks) - System prompt for the statusline-setup agent that configures status line display.
+- [Agent Prompt: Status line setup](./system-prompts/agent-prompt-status-line-setup.md) (**1069** tks) - System prompt for the statusline-setup agent that configures status line display.
 
 ### Slash commands
 
@@ -133,7 +133,7 @@ Text for large system reminders.
 - [Tool Description: ExitPlanMode](./system-prompts/tool-description-exitplanmode.md) (**342** tks) - Description for the ExitPlanMode tool, which presents a plan dialog for the user to approve.
 - [Tool Description: Glob](./system-prompts/tool-description-glob.md) (**122** tks) - Tool description for file pattern matching and searching by name.
 - [Tool Description: Grep](./system-prompts/tool-description-grep.md) (**300** tks) - Tool description for content search using ripgrep.
-- [Tool Description: LSP](./system-prompts/tool-description-lsp.md) (**172** tks) - Description for the LSP tool..
+- [Tool Description: LSP](./system-prompts/tool-description-lsp.md) (**194** tks) - Description for the LSP tool..
 - [Tool Description: NotebookEdit](./system-prompts/tool-description-notebookedit.md) (**121** tks) - Tool description for editing Jupyter notebook cells.
 - [Tool Description: ReadFile](./system-prompts/tool-description-readfile.md) (**439** tks) - Tool description for reading files.
 - [Tool Description: Skill](./system-prompts/tool-description-skill.md) (**292** tks) - Tool description for executing skills in the main conversation.
@@ -149,4 +149,4 @@ Text for large system reminders.
 
 - [Tool Description: Bash (Git commit and PR creation instructions)](./system-prompts/tool-description-bash-git-commit-and-pr-creation-instructions.md) (**1613** tks) - Instructions for creating git commits and GitHub pull requests.
 - [Tool Description: Bash (sandbox note)](./system-prompts/tool-description-bash-sandbox-note.md) (**454** tks) - Note about bash command sandboxing.
-- [Tool Description: Task (async return note)](./system-prompts/tool-description-task-async-return-note.md) (**202** tks) - Message returned to the model when a subagent launched successfully.
+- [Tool Description: Task (async return note)](./system-prompts/tool-description-task-async-return-note.md) (**201** tks) - Message returned to the model when a subagent launched successfully.

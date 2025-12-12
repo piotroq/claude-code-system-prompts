@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: LSP'
 description: Description for the LSP tool.
-ccVersion: 2.0.30
+ccVersion: 2.0.65
 -->
 Interact with Language Server Protocol (LSP) servers to get code intelligence features.
 
@@ -11,10 +11,11 @@ Supported operations:
 - hover: Get hover information (documentation, type info) for a symbol
 - documentSymbol: Get all symbols (functions, classes, variables) in a document
 - workspaceSymbol: Search for symbols across the entire workspace
+- goToImplementation: Find implementations of an interface or abstract method
 
 All operations require:
 - filePath: The file to operate on
-- line: The line number (0-indexed)
-- character: The character offset (0-indexed) on the line
+- line: The line number (1-based, as shown in editors)
+- character: The character offset (1-based, as shown in editors)
 
 Note: LSP servers must be configured for the file type. If no server is available, an error will be returned.
