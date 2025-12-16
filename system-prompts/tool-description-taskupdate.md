@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: TaskUpdate'
 description: Description for the TaskUpdate tool, which updates Claude's task list
-ccVersion: 2.0.60
+ccVersion: 2.0.70
 -->
 Use this tool to update a task in the task list.
 
@@ -11,6 +11,7 @@ Use this tool to update a task in the task list.
 - When you have completed the work described in a task
 - When a task is no longer needed or has been superseded
 - IMPORTANT: Always mark your assigned tasks as resolved when you finish them
+- After resolving, call TaskList to find your next task
 
 **Update task details:**
 - When requirements change or become clearer
@@ -22,7 +23,7 @@ Use this tool to update a task in the task list.
 - **status**: Set to 'resolved' when work is complete, or 'open' to reopen
 - **subject**: Change the task title
 - **description**: Change the task description
-- **addComment**: Add a comment with {author, content} to track progress or decisions. **Teammates**: Use your \`CLAUDE_CODE_AGENT_ID\` environment variable as the author
+- **addComment**: Add a comment with {author, content} to track progress or decisions. **Teammates**: Use your \`CLAUDE_CODE_AGENT_ID\` environment variable as the author. 
 - **addReferences**: Link to related tasks (bidirectional)
 - **addBlocks**: Mark tasks that cannot start until this one completes
 - **addBlockedBy**: Mark tasks that must complete before this one can start
@@ -36,6 +37,8 @@ To claim a task, use TeammateTool with the \`assignTask\` or \`claimTask\` opera
 - Teammates can self-claim using \`claimTask\`
 
 Attempting to update an unclaimed task or a task owned by another agent will fail with an error. Team leads can update any task.
+
+Teammates should add comments while working to signal progress to the team and team lead.
 
 ## Examples
 
