@@ -4,6 +4,19 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.0.74](https://github.com/Piebald-AI/claude-code-system-prompts/commit/33fc177)
+
+_-1693 tokens_
+
+- **NEW:** Agent Prompt: Session Search Assistant - agent prompt for finding relevant sessions based on user queries, with priority matching on tags, titles, branches, summaries, and transcripts
+- **REMOVED:** Agent Prompt: Exit plan mode with swarm - instructions for launching swarm teammates when ExitPlanMode is called with `isSwarm` set to true
+- **REMOVED:** System Reminder: Delegate mode prompt - system reminder for delegate mode with restricted tool access
+- **REMOVED:** System Reminder: Team Coordination - system reminder for team coordination with teammate identity and resources
+- **REMOVED:** Tool Description: TaskList - tool for listing all tasks in the task list
+- **REMOVED:** Tool Description: TaskUpdate - tool for updating task status and adding comments
+- **REMOVED:** Tool Description: TeammateTool's operation parameter - description of TeammateTool operations
+- Tool Description: Bash (Git commit and PR creation instructions) - simplified pre-commit hook failure handling; removed detailed amend rules for auto-modified files, now just advises to fix and create a new commit
+
 # [2.0.73](https://github.com/Piebald-AI/claude-code-system-prompts/commit/085fb45)
 
 _+91 tokens_
