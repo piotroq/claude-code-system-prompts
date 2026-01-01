@@ -33,6 +33,10 @@ Download it and try it out for free!  **https://piebald.ai/**
 
 This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.76](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.76) (December 22nd, 2025).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 57 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
 
+**This repository is updated within minutes of each Claude Code release.  See the [CHANGELOG](./CHANGELOG.md), and follow [@PiebaldAI](https://x.com/PiebaldAI) on X for a summary of the system prompt changes in each release.**
+
+---
+
 Why multiple "system prompts?"
 
 **Claude Code doesn't just have one single string for its system prompt.**
