@@ -8,11 +8,11 @@ variables:
   - READ_TOOL
   - GLOB_TOOL
   - GET_SUBSCRIPTION_TYPE_FN
+  - IS_TRUTHY_FN
+  - PROCESS_OBJECT
   - BASH_TOOL
   - TASK_TOOL_OBJECT
   - WRITE_TOOL
-  - IS_TRUTHY_FN
-  - PROCESS_OBJECT
 -->
 Launch a new agent to handle complex, multi-step tasks autonomously. 
 

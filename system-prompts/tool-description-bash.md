@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: Bash'
 description: Description for the Bash tool, which allows Claude to run shell commands
-ccVersion: 2.1.4
+ccVersion: 2.1.5
 variables:
   - CUSTOM_TIMEOUT_MS
   - MAX_TIMEOUT_MS
@@ -13,7 +13,7 @@ variables:
   - READ_TOOL_NAME
   - EDIT_TOOL_NAME
   - WRITE_TOOL_NAME
-  - GIT_COMMIT_AND_PR_CREATION_INSTRUCTION
+  - BASH_TOOL_NAME
   - BASH_BACKGROUND_TASK_NOTES_FN
 -->
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
