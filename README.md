@@ -6,6 +6,7 @@
 <div align="left">
 
 ### Check out Piebald
+
 We've released **Piebald**, the ultimate agentic AI developer experience. \
 Download it and try it out for free!  **https://piebald.ai/**
 
@@ -42,6 +43,7 @@ Why multiple "system prompts?"
 **Claude Code doesn't just have one single string for its system prompt.**
 
 Instead, there are:
+
 - Large portions conditionally added depending on the environment and various configs.
 - Descriptions for builtin tools like `Write`, `Bash`, and `TodoWrite`, and some are fairly large.
 - Separate system prompts for builtin agents like Explore and Plan.
@@ -51,6 +53,7 @@ The result&mdash;40+ strings that are constantly changing and moving within a ve
 
 > [!TIP]
 > Want to **modify a particular piece of the system prompt** in your own Claude Code installation?  **Use [tweakcc](https://github.com/Piebald-AI/tweakcc).**  It&mdash;
+> 
 > - lets you customize the the individual pieces of the system prompt as markdown files, and then
 > - patches your npm-based or native (binary) Claude Code installation with them, and also
 > - provides diffing and conflict management for when both you and Anthropic have conflicting modifications to the same prompt file.
